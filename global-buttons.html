@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Button Styles</title>
+  <style>
+    body{
+      background-color:#333;
+    }
+    div{
+      text-align:center;
+      padding:20px;
+      border-top:5px solid #555;
+      border-bottom:5px solid #555;
+    }
+    button{
+      font-size:60px;
+      padding:20px;
+      border:1px solid orange;
+    }
+    #Left{
+      border-radius: 50px 0px 0px 50px;
+    }
+
+    #Right{
+      border-radius: 0px 50px 50px 0px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Global Styles<small style="color: orange; font-size:20px;">CSS</small></h1>
+  <div>
+    <button id="Left">&#9664;</button>
+    <button>&#9689;</button>
+    <button id="Right">&#9654;</button>
+  </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Global Styles</title>
+  <style>
+    /*categorie de selector*/
+    /*1) tag selector*/
+    body{
+      background-color: #333;
+      color: #fff;
+      width:360px;
+    }
+      /*select la paragrafe*/
+    p{
+      background-color: green;
+      width:100px;
+      height:100px;
+      float: left;
+      margin: 10px;
+    }
+
+      /*2) class selector*/
+      .row{
+        background-color:brown;
+      }
+      .col{
+        border-radius:50px;
+      }
+
+      /*3)identifier*/
+      #first{
+        border-radius:50px 0px 0px 0px;
+      }
+      #last{
+        border-radius:0px 0px 50px 0px;
+      }
+
+  </style>
+
+
+</head>
+<body>
+
+  <h1>Global styles<small style="color: orange; font-size:20px;">CSS</small></h1>
+
+  <p id="first">1.</p>
+  <p class="col">2.</p>
+  <p>3.</p>
+  <p class="row">4.</p>
+  <p class="col row">5.</p>
+  <p class="row">6.</p>
+  <p>7.</p>
+  <p class="col">8.</p>
+  <p id="last">9.</p>
+</body>
+</html>
